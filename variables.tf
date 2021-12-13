@@ -4,9 +4,9 @@
 variable "tenancy_ocid" {}
 variable "compartment_ocid" {}
 variable "region" {}
-#variable "fingerprint" {}
-#variable "user_ocid" {}
-#variable "private_key_path" {}
+variable "fingerprint" {}
+variable "user_ocid" {}
+variable "private_key_path" {}
 variable "ATP_password" {}
 
 variable "availability_domain_name" {
@@ -19,7 +19,7 @@ variable "availability_domain_number" {
 
 variable "release" {
   description = "Reference Architecture Release (OCI Architecture Center)"
-  default     = "1.5.1"
+  default     = "1.5.2"
 }
 
 variable "oracle_instant_client_version" {
