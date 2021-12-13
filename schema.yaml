@@ -241,7 +241,7 @@
         visible: 
           not:
             - ATP_free_tier
-        default: false
+        default: true
         required: false
         title: "ATP Database Private Endpoint"
         description: "Check the box to deploy ATP Database with Private Endpoint."
