@@ -4,7 +4,7 @@ This is an example of how to use the oci-arch-atp-private module to deploy ATP w
 ### Using this example
 Update terraform.tfvars with the required information.
 
-### Deploy the tomcat
+### Deploy the ATP Private Endpoint 
 Initialize Terraform:
 ```
 $ terraform init
@@ -39,7 +39,7 @@ Use Terraform to Provision resources:
 $ terraform apply
 ```
 
-### Destroy the Tomcat 
+### Destroy the ATP Private Endpoint 
 
 Use Terraform to destroy resources:
 ```
